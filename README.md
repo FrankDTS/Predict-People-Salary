@@ -1,6 +1,6 @@
 # Predict_Perple_Salary- Project OverView
-  * Built several Machine Learning (Logistic Regression, RandomFordst, and XGboost) to predict whether a person makes over 50K a year
-  * Several Feature Engineering methods to fill with columns which have NA values. 
+ * Built several Machine Learning (Logistic Regression, RandomFordst, and XGboost) to predict whether a person makes over 50K a year
+ * Several Feature Engineering methods to fill with columns that have NA values.
 
 # Code and Resoused Used
   * Python 3.8
@@ -15,7 +15,7 @@
      2. martial_status: replace 'Divorced' and class to 'Seperated' class
      3. native_country: use continent to group each country.
      
-  3. one hot encoding for categorical paramete
+  3. one-hot encoding for categorical parameters
   4. Built Xgboost model to predict workclass, occupation, and native_country's Null value
 
 
