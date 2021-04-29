@@ -8,11 +8,14 @@
   * [Xgboost parameter] (https://xgboost.readthedocs.io/en/latest/parameter.html)
   
 # Data Preprocessing
-  1. Normalize or use logistic to transform the numeric columns (age, fnlwgt, martial_status, hours)
-  3. Group approximate equal columns to groups to reduce the dimension (workclass, education_number, captial)
-  4. native_country is the most difficult transformation in categorical parameter, I use continent to group each country.
-  5. one hot encoding for categorical paramete
-  6. Built Xgboost model to predict workclass, occupation, and native_country's Null value
+  1. Normalize or use logistic to transform the numeric columns (age, fnlwgt, education_number, hours)
+  2. Group approximate equal columns to groups to reduce the dimension (workclass, martial_status, native_country)
+     1. workclass: replace 'Without pay' and 'Never-worked' classes to 'Non-pay' class
+     2. martial_status: replace 'Divorced' and class to 'Seperated' class
+     3. native_country: use continent to group each country.
+     
+  3. one hot encoding for categorical paramete
+  4. Built Xgboost model to predict workclass, occupation, and native_country's Null value
 
 
 # Fit and Predict models
