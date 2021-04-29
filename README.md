@@ -12,6 +12,7 @@
   3. Group approximate equal columns to groups to reduce the dimension (workclass, education_number, captial)
   4. native_country is the most difficult transformation in categorical parameter, I use continent to group each country.
   5. one hot encoding for categorical paramete
+  6. Built Xgboost model to predict workclass, occupation, and native_country's Null value
 
 
 # Fit and Predict models
