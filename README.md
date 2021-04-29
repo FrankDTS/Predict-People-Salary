@@ -6,6 +6,7 @@
   * Python 3.8
   * Packages: pandas, numpy, seaborn, matplotlib, sklearn, Xgboost
   * [Xgboost parameter] (https://xgboost.readthedocs.io/en/latest/parameter.html)
+  * [Data] (https://archive.ics.uci.edu/ml/index.php)
   
 # Data Preprocessing
   1. Normalize or use logistic to transform the numeric columns (age, fnlwgt, education_number, hours)
