@@ -1,4 +1,4 @@
-# Predict_People_Salary Project OverView
+# [Predict_People_Salary Project OverView](https://github.com/FrankDTS/Predict_Perple_Salary/blob/main/Predict_Salary_Project.ipynb)
  * Built several Machine Learning (Logistic Regression, RandomFordst, and XGboost) to predict whether a person makes over 50K a year
  * Several Feature Engineering methods to fill with columns that have NA values.
 
