@@ -2,7 +2,7 @@
  * Built several Machine Learning models (Logistic Regression, RandomFordst, and XGboost) to predict whether a person makes over 50K a year
  * Several Feature Engineering methods to fill with columns that have NA values.
 
-# Code and Resoused Used
+# Code and Resourced Used
   * Python 3.8
   * Packages: pandas, numpy, seaborn, matplotlib, sklearn, Xgboost
   * [Xgboost parameter] (https://xgboost.readthedocs.io/en/latest/parameter.html)
