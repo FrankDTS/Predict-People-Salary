@@ -12,7 +12,7 @@
   1. Normalize or use logistic to transform the numeric columns (age, fnlwgt, education_number, hours)
   2. Group approximate equal columns to groups to reduce the dimension (workclass, martial_status, native_country)
      1. workclass: replace 'Without pay' and 'Never-worked' classes to 'Non-pay' class
-     2. martial_status: replace 'Divorced' and class to 'Seperated' class
+     2. martial_status: replace 'Divorced' class to 'Seperated' class
      3. native_country: use continent to group each country.
      
   3. one-hot encoding for categorical parameters
